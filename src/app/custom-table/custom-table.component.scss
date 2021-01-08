@@ -1,0 +1,57 @@
+
+    .Table
+    {
+        display: table;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        border-color: black;
+        width: 55%;
+        align-items:center;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .CellHeading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Row 
+    {
+        display: table-row;
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+    }
+    .Row:nth-child(even){
+        background-color: #bbb6b6; 
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .button
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        // padding-left: 2px;
+        // padding-right: 2px;
+        align-self: center;
+    }
+    .textarea
+    {
+        display: table-cell;
+        width: 1px;
+        height: 5px;
+    }
+    

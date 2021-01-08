@@ -1,0 +1,98 @@
+<div class="Table" id ="data_table">
+    <div class="Title">
+        <p>Custom Table</p>
+    </div>
+    <div class="CellHeading">
+        <div class="Cell">
+            <p>Name</p>
+        </div>
+        <div class="Cell">
+            <p>Country</p>
+        </div>
+        <div class="Cell">
+            <p>Age</p>
+        </div>
+        <div class="Cell">
+            <p></p>
+        </div>
+    </div>
+    <div class="Row" id="Row1">
+        <div class="Cell">
+            <p id="name_row1">Shalini</p>
+        </div>
+        <div class="Cell">
+            <p id="country_row1">Australia</p>
+        </div>
+        <div class="Cell">
+            <p id="age_row1">25</p>
+        </div>
+        <div class="button">
+            <button id="edit_button1" (click)="edit_row('1')">Edit</button>
+            <button id="save_button1"(click)="save_row('1')" >Save</button>
+            <button (click)="Delete_row('1')">Delete</button>
+        </div>
+    </div>
+     <div class="Row" id="Row2">
+        <div class="Cell">
+            <p id= "name_row2">Ayaan</p>
+        </div>
+        <div class="Cell">
+            <p id = "country_row2">Berlin</p>
+        </div>
+        <div class="Cell">
+            <p id = "age_row2">29</p>
+        </div>
+        <div class="button">
+            <button id="edit_button2" (click)="edit_row('2')">Edit</button>
+            <button id="save_button2" (click)="save_row('2')">Save</button>
+            <button (click)="Delete_row('2')">Delete</button>
+        </div>
+    </div>
+
+    <div class="Row" id="Row3">
+        <div class="Cell">
+            <p id = "name_row3">Vignesh</p>
+        </div>
+        <div class="Cell">
+            <p id= "country_row3">US</p>
+        </div>
+        <div class="Cell">
+            <p id= "age_row3">28</p>
+        </div>
+        <div class="button">
+            <button id="edit_button3" (click)="edit_row('3')">Edit</button>
+            <button id="save_button3" (click)="save_row('3')">Save</button>
+            <button (click)="Delete_row('3')">Delete</button>
+        </div>
+    </div>
+    <div class="Row" id="Row4">
+        <div class="Cell">
+            <p id = "name_row4">Mithra</p>
+        </div>
+        <div class="Cell">
+            <p id= "country_row4">Canada</p>
+        </div>
+        <div class="Cell">
+            <p id= "age_row4">23</p>
+        </div>
+        <div class="button">
+           <button id="edit_button4" (click)="edit_row('4')">Edit</button>
+            <button id="save_button4" (click)="save_row('4')">Save</button>
+            <button (click)="Delete_row('4')">Delete</button>
+        </div>
+    </div> 
+    <div class="Row">
+        <div class="textarea">
+            <textarea id="new_name"> </textarea>
+        </div>
+        <div class="textarea">
+            <textarea id="new_country"> </textarea>
+        </div>
+        <div class="textarea">
+            <textarea id="new_age"> </textarea>
+        </div>
+        <div class="button">
+            <button (click)="add_row()">Add Row</button>
+        </div>
+    </div>
+</div>
